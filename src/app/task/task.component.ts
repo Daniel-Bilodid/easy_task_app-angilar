@@ -10,5 +10,5 @@ import { DUMMY_USERS } from '../dummy-users';
   styleUrls: ['./task.component.css'],
 })
 export class TaskComponent {
-  @Input({ required: true }) name!: string;
+  @Input() name?: string;
 }
